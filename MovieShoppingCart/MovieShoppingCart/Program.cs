@@ -1,4 +1,5 @@
 ﻿using System;
+using MovieShoppingCart.DTOS;
 using MovieShoppingCart.MyClasses;
 
 namespace MovieShoppingCart
@@ -7,10 +8,10 @@ namespace MovieShoppingCart
     {
         static void Main(string[] args)
         {
-            Image beach = new Image();
-            beach.ImageSize = "this is a small image";
+            CommentDTO comment = new CommentDTO();
+            comment.CommentType = "this is a comment";
 
-            Console.WriteLine("The value of my property is: " + beach.ImageSize);
+            Console.WriteLine("The value of my property is: " + comment.CommentType);
         }
     }
 }

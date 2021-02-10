@@ -1,12 +1,13 @@
 ﻿using System;
-namespace MovieShoppingCart.MyClasses
+namespace MovieShoppingCart.DTOS
 {
-    public class Role
+    public class RoleDTO
     {
-        public Role()
+        public RoleDTO()
         {
         }
 
         public string PostId { get; set; }
+
     }
 }
