@@ -9,40 +9,60 @@ namespace MovieShoppingCart
     {
         static void Main(string[] args)
         {
-            int[] myArray = new int[9];
-            myArray[0] = 1;
-            myArray[1] = 2;
-            myArray[2] = 3;
-            myArray[3] = 4;
-            myArray[4] = 5;
-            myArray[5] = 6;
-            myArray[6] = 7;
-            myArray[7] = 8;
-            myArray[8] = 9;
+            string response = "";
+            List<User> userList = new List<User>();
+            List<Comment> commentList = new List<Comment>();
 
-            Console.WriteLine("The values on the array are the following:");
-            foreach(var item in myArray)
+
+            while (response!="5")
             {
-                Console.WriteLine(item + ", ");
-            }
+                Console.WriteLine("1. Create a User");
+                Console.WriteLine("2. Creat a Comment");
+                Console.WriteLine("3. Print the List of Users");
+                Console.WriteLine("4. Print the List of Comments");
+                Console.WriteLine("5. Exit");
 
-            List<string> myList = new List<string>();
-            myList.Add("Value 1");
-            myList.Add("Value 2");
-            myList.Add("Value 3");
-            myList.Add("Value 4");
-            myList.Add("Value 5");
-            myList.Add("Value 6");
-            myList.Add("Value 7");
-            myList.Add("Value 8");
-            myList.Add("Value 9");
-            myList.Add("Value 10");
+                Console.WriteLine("");
+                Console.WriteLine("Please select an option")
+                response = Console.ReadLine();
 
-            Console.WriteLine("");
-            Console.WriteLine("The values on the list are the following:");
-            foreach (var item in myList)
-            {
-                Console.WriteLine(item + ", "); 
+                switch(response)
+                {
+                    case "1":
+                        User user = new User();
+                        user.Email = "myemail@somewhere.com";
+                        user.Password = "password";
+
+                        userList.Add(user);
+
+                        Console.WriteLine("You have created a user");
+                        break;
+                    case "2":
+                        Comment myComment = new Comment();
+                        myComment.CommentType = "Happy";
+
+                        commentList.Add(myComment);
+
+                        Console.WriteLine("You have created a comment");
+                        break;
+                    case "3":
+                        Console.WriteLine("This is the list of the users created:");
+
+                        foreach (var insideUser in userList)
+                        {
+                            Console.WriteLine("The user email is:" + insideUser.Email);
+                            Console.WriteLine("The user password is:" + insideUser.Password);
+                        }
+                        break;
+                    case "4":
+                        Console.WriteLine("This is the list of the comments created:");
+
+                        foreach (var insideComment in commentList)
+                        {
+                            Console.WriteLine("The comment type is:" + insideComment.CommentType);
+                        }
+                        break;
+                }
             }
         }
     }
