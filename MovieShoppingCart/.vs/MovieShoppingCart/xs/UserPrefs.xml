@@ -1,18 +1,14 @@
 ﻿<Properties StartupConfiguration="{54A2C66B-B9D1-46ED-8DB3-31003C0BF77E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShoppingCart/MyClasses/Comment.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShoppingCart/Program.cs">
     <Files>
-      <File FileName="MovieShoppingCart/Program.cs" Line="10" Column="17" />
-      <File FileName="MovieShoppingCart/MyClasses/Comment.cs" Line="1" Column="1" />
+      <File FileName="MovieShoppingCart/Program.cs" Line="11" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShoppingCart" expanded="True">
             <Node name="MovieShoppingCart" expanded="True">
-              <Node name="DTOS" expanded="True" />
-              <Node name="MyClasses" expanded="True">
-                <Node name="Comment.cs" selected="True" />
-              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -8,10 +8,13 @@ namespace MovieShoppingCart
     {
         static void Main(string[] args)
         {
-            CommentDTO comment = new CommentDTO();
-            comment.CommentType = "this is a comment";
+            DateTime myDateTimeVariable = new DateTime(1995, 04, 09, 11, 41, 00);
+            DateTime myDateTimeVariable2 = new DateTime(2019, 09, 25, 01, 11, 00);
 
-            Console.WriteLine("The value of my property is: " + comment.CommentType);
+            if (myDateTimeVariable < myDateTimeVariable2)
+            {
+                Console.WriteLine("Yes, the value is less");
+            }
         }
     }
 }

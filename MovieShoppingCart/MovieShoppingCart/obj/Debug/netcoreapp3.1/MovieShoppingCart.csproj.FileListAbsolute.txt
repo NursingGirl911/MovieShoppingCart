@@ -1,0 +1,12 @@
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/bin/Debug/netcoreapp3.1/MovieShoppingCart.deps.json
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/bin/Debug/netcoreapp3.1/MovieShoppingCart.runtimeconfig.json
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/bin/Debug/netcoreapp3.1/MovieShoppingCart.runtimeconfig.dev.json
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/bin/Debug/netcoreapp3.1/MovieShoppingCart.dll
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/bin/Debug/netcoreapp3.1/MovieShoppingCart.pdb
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/obj/Debug/netcoreapp3.1/MovieShoppingCart.csprojAssemblyReference.cache
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/obj/Debug/netcoreapp3.1/MovieShoppingCart.AssemblyInfoInputs.cache
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/obj/Debug/netcoreapp3.1/MovieShoppingCart.AssemblyInfo.cs
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/obj/Debug/netcoreapp3.1/MovieShoppingCart.csproj.CoreCompileInputs.cache
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/obj/Debug/netcoreapp3.1/MovieShoppingCart.dll
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/obj/Debug/netcoreapp3.1/MovieShoppingCart.pdb
+/Users/brittanycmonster/Desktop/MovieShoppingCart/MovieShoppingCart/MovieShoppingCart/obj/Debug/netcoreapp3.1/MovieShoppingCart.genruntimeconfig.cache
