@@ -9,25 +9,24 @@ namespace MovieShoppingCart
     class Program
     {
         static void Main(string[] args)
-        {
-            MyClass<int> myClass = new MyClass<int>();
+        { }
+        MyClass myVariable = new MyClass();
+        myVariable.MyMethod<string>("string 1", "string 2");
 
-            myClass.MyProperty1 = 10;
-            myClass.MyProperty2 = 20;
+            Console.WriteLine(myVariable.MyProperty1);
+            Console.WriteLine(myVariable.MyProperty2);
 
-            Console.WriteLine(myClass.MyProperty1);
-            Console.WriteLine(myClass.MyProperty2);
 
-            MyClass<string> myClass2 = new MyClass<string>();
-
-            myClass2.MyProperty1 = "string 1";
-            myClass2.MyProperty2 = "string 2";
-        }
-
-            public class MyClass<T>
+            public class MyClass
             {
-                public T MyProperty1 { get; set; }
-                public T MyProperty2 { get; set; }
+                public string MyProperty1 { get; set; }
+                public string MyProperty2 { get; set; }
+
+                public void MyMethod<T>(T parameter1, T parameter2)
+                {
+                this.MyProperty1 = parameter1.ToString();
+                this.MyProperty2 = parameter2.ToString();
+            }
             }
         }
 
